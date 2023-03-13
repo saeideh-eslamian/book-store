@@ -14,5 +14,4 @@ def book_detail(request,slug):
         'author': book.author,
         'rating': book.rating,
         'is_bestselller': book.is_best_selling,
-        'slug':slug
     })
